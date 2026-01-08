@@ -15,7 +15,7 @@ function Home() {
     return <p className="text-center py-10">Loading posts...</p>;
   }
 
-  if (posts.length === 0) {
+  if (posts && posts.length === 0) {
     return (
       <div className="w-full py-8 mt-4 text-center">
         <Container>
