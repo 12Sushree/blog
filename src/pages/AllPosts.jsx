@@ -25,7 +25,7 @@ function AllPosts() {
         <h1 className="mb-8 text-2xl font-bold text-gray-900">All Posts</h1>
 
         <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {posts.map((post) => (
+          {posts?.map((post) => (
             <PostCard key={post.$id} {...post} />
           ))}
         </div>
