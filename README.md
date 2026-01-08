@@ -22,6 +22,10 @@ This is a simple blog website built using HTML, CSS, and JavaScript and React + 
 - TinyMCE (for rich text editing)
 - Redux
 
+## Live Demo
+
+You can view the live demo of the blog website [here](https://blog-awla.vercel.app/).
+
 ## Installation
 
 1. Clone the repository:
